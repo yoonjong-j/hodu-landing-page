@@ -13,23 +13,44 @@
         height: 900px;
         background-color: #f2e9d8;
       }
-      .Top_navigation-bar {
+      .navigation-bar {
         width: 1920px;
         height: 102px;
         display: flex;
       }
-      .Top_navigation-bar .Logo-fin {
+      .logo {
         width: 130px;
         height: 40px;
+        position: absolute;
+        top: 31px;
+        left: 320px;
         background-image: url(./images/Logo-fin.svg);
         background-repeat: no-repeat;
         background-size: cover;
       }
-      .Download_btn {
+      .nav-element {
+        width: 250px;
+        height: 20px;
+        position: absolute;
+        top: 26px;
+        left: 1150px;
+        list-style-type: none;
+      }
+      .nav-element > li {
+        display: inline;
+        margin-right: 30px;
+        line-height: 20px;
+        font-size: 16px;
+        font-family: "Pretendard-Regular";
+        src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+          format("woff");
+      }
+      .download-btn {
         background-color: #d97652;
         width: 140px;
         height: 50px;
         border-radius: 40px;
+        border: none;
         text-align: center;
         color: #ffffff;
         line-height: 20px;
@@ -40,18 +61,23 @@
         font-weight: 700;
         font-style: normal;
       }
+      .first-btn {
+        position: absolute;
+        top: 26px;
+        left: 1460px;
+      }
     </style>
   </head>
   <body>
     <header>
-      <nav class="Top_navigation-bar">
-        <div class="Logo-fin"></div>
-        <ul class="top_nav_element">
+      <nav class="navigation-bar">
+        <div class="logo"></div>
+        <ul class="nav-element">
           <li>Home</li>
           <li>About</li>
           <li>Support</li>
         </ul>
-        <button class="Download_btn">Download</button>
+        <button class="download-btn first-btn">Download</button>
       </nav>
       <div class="container-1"></div>
     </header>
