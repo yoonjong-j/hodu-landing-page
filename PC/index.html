@@ -8,19 +8,54 @@
       body {
         margin: 0;
       }
-      .header-container {
+      header {
         width: 1920px;
         height: 900px;
-        box-sizing: border-box;
         background-color: #f2e9d8;
+      }
+      .Top_navigation-bar {
+        width: 1920px;
+        height: 102px;
+        display: flex;
+      }
+      .Top_navigation-bar .Logo-fin {
+        width: 130px;
+        height: 40px;
+        background-image: url(./images/Logo-fin.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .Download_btn {
+        background-color: #d97652;
+        width: 140px;
+        height: 50px;
+        border-radius: 40px;
+        text-align: center;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 16px;
+        font-family: "Pretendard-Regular";
+        src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+          format("woff");
+        font-weight: 700;
+        font-style: normal;
       }
     </style>
   </head>
   <body>
-    <header class="header-container">
-      <nav class="navigation-bar"></nav>
+    <header>
+      <nav class="Top_navigation-bar">
+        <div class="Logo-fin"></div>
+        <ul class="top_nav_element">
+          <li>Home</li>
+          <li>About</li>
+          <li>Support</li>
+        </ul>
+        <button class="Download_btn">Download</button>
+      </nav>
+      <div class="container-1"></div>
     </header>
-    <main class="main-container"></main>
-    <footer class="footer-container"></footer>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
