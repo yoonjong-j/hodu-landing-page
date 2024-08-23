@@ -9,12 +9,18 @@ header {
   height: 900px;
   background-color: #f2e9d8;
 }
+footer {
+  width: 1920px;
+  height: 160px;
+  position: absolute;
+  top: 4159px;
+}
 .navigation-bar {
   width: 1920px;
   height: 102px;
   display: flex;
 }
-.logo {
+.header-logo {
   width: 130px;
   height: 40px;
   position: absolute;
@@ -103,7 +109,7 @@ header {
 .container-2 {
   display: inline-block;
 }
-.container-2 .image-one {
+.container-2 .image-1 {
   width: 660px;
   height: 390px;
   position: absolute;
@@ -180,17 +186,17 @@ header {
   border-radius: 30px;
   box-shadow: 10px 10px 30px 0px #00000040;
 }
-.container-5 .image-two {
+.container-5 .image-2 {
   background-image: url(./images/img_1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container-5 .image-three {
+.container-5 .image-3 {
   background-image: url(./images/img_2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container-5 .image-four {
+.container-5 .image-4 {
   background-image: url(./images/img_3.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,17 +205,17 @@ header {
   top: 2250px;
   left: 320px;
 }
-.container-6 .image-five {
+.container-6 .image-5 {
   background-image: url(./images/img_5.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container-6 .image-six {
+.container-6 .image-6 {
   background-image: url(./images/img_6.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container-6 .image-seven {
+.container-6 .image-7 {
   background-image: url(./images/img_7.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,4 +384,55 @@ header {
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+}
+.container-10 {
+  display: flex;
+}
+.container-10 .footer-logo {
+  width: 226px;
+  height: 70px;
+  position: absolute;
+  top: 45px;
+  left: 320px;
+  background-image: url(./images/Logo-fin.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-10 .footer-icons {
+  width: 228px;
+  height: 42px;
+  display: flex;
+  top: 58px;
+  left: 1372px;
+}
+.footer-icons .icons {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 58px;
+  color: #f29d52;
+}
+.footer-icons .icon-blog {
+  left: 1372px;
+  background-image: url(./images/icon-blog.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-icons .icon-insta {
+  left: 1434px;
+  background-image: url(./images/icon-insta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-icons .icon-facebook {
+  left: 1496px;
+  background-image: url(./images/icon-facebook.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-icons .icon-youtube {
+  left: 1558px;
+  background-image: url(./images/icon-youtube.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
