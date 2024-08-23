@@ -9,6 +9,18 @@ header {
   height: 900px;
   background-color: #f2e9d8;
 }
+main::after {
+  content: "";
+  position: absolute;
+  top: 3819px;
+  width: 1920px;
+  height: 340px;
+  background-image: url(./images/img_8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
 footer {
   width: 1920px;
   height: 160px;
@@ -308,7 +320,7 @@ footer {
   height: 200px;
   position: absolute;
   display: flex;
-  top: 3800px;
+  top: 3730px;
   left: 320px;
   border-radius: 30px;
   background-color: #263140;
@@ -341,11 +353,12 @@ footer {
   align-items: center;
 }
 .container-9 .email-box {
-  width: 530px;
+  width: 470px;
   height: 60px;
   position: absolute;
   top: 70px;
   left: 692px;
+  padding-left: 60px;
   border: none;
   border-radius: 60px;
   background-color: #ffffff;
@@ -353,6 +366,7 @@ footer {
 .email-box::placeholder {
   width: 250px;
   height: 20px;
+  /* padding-left: 60px; */
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -364,6 +378,10 @@ footer {
   position: absolute;
   top: 88px;
   left: 720px;
+  background-image: url(./images/mail.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
 }
 .container-9 .subscribe-btn {
   width: 135px;
