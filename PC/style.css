@@ -31,11 +31,13 @@ footer {
   width: 1920px;
   height: 102px;
   display: flex;
+  position: relative;
+  z-index: 1;
 }
 .header-logo {
   width: 130px;
   height: 40px;
-  position: absolute;
+  position: fixed;
   top: 31px;
   left: 320px;
   background-image: url(./images/Logo-fin.svg);
@@ -45,7 +47,7 @@ footer {
 .nav-element {
   width: 250px;
   height: 20px;
-  position: absolute;
+  position: fixed;
   top: 26px;
   left: 1170px;
   list-style-type: none;
@@ -74,7 +76,7 @@ footer {
   font-style: normal;
 }
 .first-btn {
-  position: absolute;
+  position: fixed;
   top: 26px;
   left: 1460px;
 }
