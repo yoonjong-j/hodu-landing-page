@@ -34,20 +34,17 @@ footer {
   position: absolute;
   z-index: 1;
 }
-.header-logo {
+.navigation-bar .header-logo {
   width: 130px;
   height: 40px;
-  position: fixed;
+  position: absolute;
   top: 31px;
   left: 320px;
-  background-image: url(./images/Logo-fin.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.nav-element {
+.navigation-bar .nav-element {
   width: 250px;
   height: 20px;
-  position: fixed;
+  position: absolute;
   top: 26px;
   left: 1170px;
   list-style-type: none;
@@ -75,8 +72,8 @@ footer {
   font-weight: 700;
   font-style: normal;
 }
-.first-btn {
-  position: fixed;
+.navigation-bar .first-btn {
+  position: absolute;
   top: 26px;
   left: 1460px;
 }
@@ -134,6 +131,16 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 10px 10px 30px 0px #00000040;
+}
+.container-2 .scroll-top-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 1060px;
+  left: 1846px;
+  background-image: url(./images/keyboard_arrow_up.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-3 .p-3 {
   width: 510px;
@@ -414,9 +421,6 @@ footer {
   position: absolute;
   top: 45px;
   left: 320px;
-  background-image: url(./images/Logo-fin.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .container-10 .footer-icons {
   width: 228px;
