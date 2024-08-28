@@ -396,8 +396,8 @@ main::after {
 .modal {
   width: 600px;
   height: 400px;
-  position: absolute;
   display: none;
+  position: absolute;
   top: 3627px;
   left: 200px;
   border-radius: 30px;
@@ -459,4 +459,24 @@ main::after {
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+}
+.scroll-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+.scroll-btn > img {
+  width: 30px;
+  height: 30px;
+}
+.scroll-btn:hover {
+  opacity: 0.8;
 }

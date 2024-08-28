@@ -11,3 +11,29 @@
 - 피그마 렌딩페이지를 기반으로 웹 페이지 구현
 - HTML / CSS / JavaScript
 - PC 화면
+
+```
+TypeError: subsBtn.addEventListener is not a function
+```
+
+```JavaScript
+subsBtn.addEventListener("click", () => {
+  const valid = document.getElementsByClassName("email-input").value;
+  if (validation(valid)) {
+    openPage();
+  } else {
+    window.alert("Invalid Email Address");
+  }
+});
+```
+
+```JavaScript
+subsBtn[0].addEventListener("click", () => {
+  const valid = document.getElementsByClassName("email-input").value;
+  if (validation(valid)) {
+    openPage();
+  } else {
+    window.alert("Invalid Email Address");
+  }
+});
+```
