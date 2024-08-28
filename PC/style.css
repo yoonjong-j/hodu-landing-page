@@ -1,6 +1,7 @@
 body {
   margin: 0;
   width: 100%;
+  font-family: Pretendard;
 }
 main::after {
   content: "";
@@ -391,4 +392,70 @@ main::after {
   width: 42px;
   height: 42px;
   color: #f29d52;
+}
+.modal {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  /* display: none; */
+  top: 3627px;
+  left: 200px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px 0px #00000033;
+  background-image: url(./images/modal-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.modal > img {
+  width: 110px;
+  height: 112px;
+  position: relative;
+  top: 60px;
+  left: 245px;
+}
+.modal > .paragraph-9th {
+  width: 212px;
+  height: 46px;
+  position: relative;
+  top: 45px;
+  left: 194px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #d97652;
+}
+.modal > .paragraph-10th {
+  width: 365px;
+  height: 18px;
+  position: relative;
+  top: 26px;
+  left: 108px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+.modal > .ok-btn {
+  width: 183px;
+  height: 50px;
+  position: relative;
+  top: 27px;
+  left: 205px;
+  border: none;
+  border-radius: 40px;
+  background-color: #d97652;
+  cursor: pointer;
+}
+.ok-btn > span {
+  width: 125px;
+  height: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
 }
