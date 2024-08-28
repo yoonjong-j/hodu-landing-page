@@ -325,7 +325,7 @@ main::after {
   width: 470px;
   height: 60px;
   position: relative;
-  top: 75px;
+  top: 10px;
   left: 25%;
   padding-left: 60px;
   border: none;
@@ -344,7 +344,7 @@ main::after {
   width: 24px;
   height: 24px;
   position: relative;
-  top: 75px;
+  top: 10px;
   left: 32%;
   z-index: 1;
 }
@@ -352,7 +352,7 @@ main::after {
   width: 135px;
   height: 50px;
   position: relative;
-  top: 75px;
+  top: 10px;
   left: 3.5%;
   border: none;
   border-radius: 40px;

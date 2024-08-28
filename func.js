@@ -29,8 +29,8 @@ function closePage() {
 }
 
 // Subscribe 버튼 클릭
-subsBtn.addEventListener("click", function (event) {
-  const valid = document.querySelector(".email-input");
+subsBtn.addEventListener("click", function () {
+  const valid = document.getElementsByClassName("email-input").value;
   if (validation(valid)) {
     // 유효한 이메일 주소
     // 모달창 띄우기
