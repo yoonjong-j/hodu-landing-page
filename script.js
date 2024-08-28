@@ -14,13 +14,13 @@ function validation(address) {
   return valid;
 }
 
-const modalPage = document.querySelector(".modal");
-const subsBtn = document.querySelector(".subscribe-btn");
-const okBtn = document.querySelector(".ok-btn");
+const modalPage = document.getElementsByClassName("modal");
+const subsBtn = document.getElementsByClassName("subscribe-btn");
+const okBtn = document.getElementsByClassName("ok-btn");
 
 // 모달창 띄우기
 function openPage() {
-  modalPage.style.display = "flex";
+  modalPage.style.display = "block";
 }
 
 // 모달창 닫기
@@ -43,6 +43,4 @@ subsBtn.addEventListener("click", function () {
 });
 
 // 모달창 닫기
-okBtn.addEventListener("click", function () {
-  closePage();
-});
+okBtn.addEventListener("click", closePage());
