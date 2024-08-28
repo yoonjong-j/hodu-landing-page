@@ -16,17 +16,20 @@ function validation(address) {
 
 // 모달창 띄우기
 function openPage() {
-  document.getElementsByClassName("modal").style.display = "flex";
+  const page = document.getElementsByClassName("modal");
+  page.style.display = "flex";
 }
 
 // 모달창 닫기
 function closePage() {
-  document.getElementsByClassName("modal").style.display = "none";
+  const page = document.getElementsByClassName("modal");
+  page.style.display = "none";
 }
 
 // Subscribe 버튼 클릭
 const subsBtn = document.getElementsByClassName("subscribe-btn");
-subsBtn.addEventListener("click", function () {
+subsBtn.addEventListener("submit", function (event) {
+  event.preventDefault();
   const valid = document.getElementsByClassName("email-input").value;
   if (validation(valid)) {
     // 유효한 이메일 주소
