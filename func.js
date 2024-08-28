@@ -14,23 +14,23 @@ function validation(address) {
   return valid;
 }
 
+const modalPage = document.querySelector(".modal");
+const subsBtn = document.querySelector(".subscribe-btn");
+const okBtn = document.querySelector(".ok-btn");
+
 // 모달창 띄우기
 function openPage() {
-  const page = document.getElementsByClassName("modal");
-  page.style.display = "flex";
+  modalPage.style.display = "flex";
 }
 
 // 모달창 닫기
 function closePage() {
-  const page = document.getElementsByClassName("modal");
-  page.style.display = "none";
+  modalPage.style.display = "none";
 }
 
 // Subscribe 버튼 클릭
-const subsBtn = document.getElementsByClassName("subscribe-btn");
-subsBtn.addEventListener("submit", function (event) {
-  event.preventDefault();
-  const valid = document.getElementsByClassName("email-input").value;
+subsBtn.addEventListener("click", function (event) {
+  const valid = document.querySelector(".email-input");
   if (validation(valid)) {
     // 유효한 이메일 주소
     // 모달창 띄우기
@@ -43,7 +43,6 @@ subsBtn.addEventListener("submit", function (event) {
 });
 
 // 모달창 닫기
-const okBtn = document.getElementsByClassName("ok-btn");
 okBtn.addEventListener("click", function () {
   closePage();
 });
