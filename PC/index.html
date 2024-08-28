@@ -3,114 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FE-Project</title>
+    <title>Test</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header id="header-wrap">
       <nav class="navigation-bar">
-        <img src="./images/Logo-fin.svg" alt="logo" class="header-logo" />
-        <ul class="nav-element">
-          <li>Home</li>
-          <li>About</li>
-          <li>Support</li>
+        <img src="./images/Logo-fin.svg" alt="logo_hodu" class="header-logo" />
+        <ul class="nav-btns">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Support</a></li>
         </ul>
-        <button class="btns download-btn first-btn">Download</button>
+        <button class="download-btn">Download</button>
       </nav>
-      <div class="container-1">
-        <div class="item-one">
-          <p class="p-1">
+      <section class="header-contents">
+        <div class="header-contents-item">
+          <h1>
             Lorem Ipsum is simply<br />
             dummy text of the printing and
-          </p>
-          <p class="p-2">
+          </h1>
+          <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. <br />Lorem Ipsum has been the industry's standard dummy
             text ever since the 1500s, when an unknown
           </p>
-          <button class="btns download-btn second-btn">Download</button>
+          <button class="download-btn">Download</button>
         </div>
-        <div class="item-two"></div>
-      </div>
+        <div>
+          <img src="./images/고양이 1.png" alt="image_hodu" />
+        </div>
+      </section>
     </header>
-    <main>
-      <article class="container-2">
-        <div class="image-1"></div>
-        <div class="container-3">
-          <p class="p-3">
+    <main id="main-wrap">
+      <article class="main-contents-1st">
+        <div>
+          <img src="./images/img_4.png" alt="image_hodu" />
+        </div>
+        <div>
+          <p class="paragraph-1st">
             Lorem Ipsum is simply dummy text of the printing and dummy text
           </p>
-          <p class="p-4">
+          <p class="paragraph-2nd">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
         </div>
-        <div class="scroll-top-btn"></div>
       </article>
-      <article class="container-4">
-        <p class="p-5">dummy text of the printing and dummy</p>
-        <p class="p-6">
-          Lorem Ipsum is simply <span class="text-style">dummy text</span> of
-          the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown
+      <article class="main-contents-2nd">
+        <p class="paragraph-3rd">dummy text of the printing and dummy</p>
+        <p class="paragraph-4th">
+          Lorem Ipsum is simply <span>dummy text</span> of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown
         </p>
       </article>
-      <article class="containers container-5">
-        <div class="images image-2"></div>
-        <div class="images image-3"></div>
-        <div class="images image-4"></div>
+      <article class="main-contents-3rd">
+        <div class="img-container-1st">
+          <img src="./images/img_1.png" alt="image_hodu" class="img-group" />
+          <img src="./images/img_2.png" alt="image_hodu" class="img-group" />
+          <img src="./images/img_3.png" alt="image_hodu" class="img-group" />
+        </div>
+        <div class="img-container-2nd">
+          <img src="./images/img_5.png" alt="image_hodu" class="img-group" />
+          <img src="./images/img_6.png" alt="image_hodu" class="img-group" />
+          <img src="./images/img_7.png" alt="image_hodu" class="img-group" />
+        </div>
       </article>
-      <article class="containers container-6">
-        <div class="images image-5"></div>
-        <div class="images image-6"></div>
-        <div class="images image-7"></div>
+      <article class="main-contents-4th">
+        <p>Continue exploring HODU</p>
+        <button class="show-more-btn"><span>Show more</span></button>
       </article>
-      <article class="container-7">
-        <p class="p-7">Continue exploring HODU</p>
-        <button class="btns show-more-btn">
-          <span class="btn-text">Show more</span>
-        </button>
+      <hr id="custom-hr" />
+      <article class="main-contents-5th">
+        <p class="paragraph-5th">Where you’ll be</p>
+        <p class="paragraph-6th">
+          330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
+        </p>
+        <img src="./images/map.png" alt="image_map" />
       </article>
-      <hr class="custom-hr" />
-      <article class="container-8">
-        <p class="p-8">Where you’ll be</p>
-        <p class="p-9">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
-        <div class="map"></div>
-      </article>
-      <article class="container-9">
+      <article class="main-contents-6th">
         <div class="text-item">
-          <p class="p-10">Subscribe to our Blog post</p>
-          <p class="p-11">
+          <p class="paragraph-7th">Subscribe to our Blog post</p>
+          <p class="paragraph-8th">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
           </p>
         </div>
         <form action="#" method="post">
           <div class="input-item">
-            <img src="./images/mail.svg" alt="icon" class="mail-icon" />
-            <input
-              type="text"
-              placeholder="Enter your e-mail address"
-              class="email-box"
-            />
-            <button class="btns subscribe-btn">
-              <span class="btn-text-2nd">Subscribe</span>
-            </button>
+            <img src="./images/mail.svg" alt="icon_mail" />
+            <input type="text" placeholder="Enter your e-mail address" />
+            <button class="subscribe-btn"><span>Subscribe</span></button>
           </div>
         </form>
       </article>
     </main>
-    <footer>
-      <div class="container-10">
-        <img src="./images/Logo-fin.svg" alt="logo" class="footer-logo" />
+    <footer id="footer-wrap">
+      <div class="footer-contents">
+        <img src="./images/Logo-fin.svg" alt="logo_hodu" class="footer-logo" />
         <div class="footer-icons">
-          <div class="icons icon-blog"></div>
-          <div class="icons icon-insta"></div>
-          <div class="icons icon-facebook"></div>
-          <div class="icons icon-youtube"></div>
+          <img src="./images/icon-blog.svg" alt="icon_blog" />
+          <img src="./images/icon-insta.svg" alt="icon_insta" />
+          <img src="./images/icon-facebook.svg" alt="icon_facebook" />
+          <img src="./images/icon-youtube.svg" alt="icon_youtube" />
         </div>
       </div>
     </footer>
-    <script src="func.js"></script>
   </body>
 </html>
