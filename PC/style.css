@@ -397,7 +397,7 @@ main::after {
   width: 600px;
   height: 400px;
   position: absolute;
-  /* display: none; */
+  display: none;
   top: 3627px;
   left: 200px;
   border-radius: 30px;
