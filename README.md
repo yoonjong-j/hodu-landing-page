@@ -162,6 +162,6 @@ const subsBtn = document.getElementsByClassName("subscribe-btn");
 subsBtn[0].addEventListener("click", () => {});
 ```
 
-- **document.getElementsByClassName**은 객체를 배열로 반환
+- **document.getElementsByClassName**은 동일한 클래스명을 가진 모든 HTML 요소를 배열의 형태로 저장해서 반환
 
 ![해결](./Screenshots/js_2_.png)
