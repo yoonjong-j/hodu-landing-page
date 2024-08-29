@@ -182,3 +182,4 @@ subsBtn[0].addEventListener("click", () => {});
 - 반응형 웹 페이지 구현
 - footer 태그 내 인스타, 페이스북 등의 아이콘은 anchor 태그로
 - 원래 header 안에 있는 contents는 main 안으로 배치해둘 것
+- subscribe 버튼 클릭 후 input 태그 초기화
