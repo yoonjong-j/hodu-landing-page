@@ -175,6 +175,7 @@ subsBtn[0].addEventListener("click", () => {});
 ## 피드백
 
 - header 태그 내 HODU 로고는 h1 태그 안에 배치할 것
+- header 태그 내 HODU 로고를 anchor 태그 안에 배치할 것
 - navigation 바의 position을 fixed가 아닌 sticky로
 - 뷰포트 단위로 정적이 아닌 동적으로 웹 페이지 구현할 것
 - modal 창 팝업 시 뒷 배경화면은 흐리게
