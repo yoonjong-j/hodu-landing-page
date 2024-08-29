@@ -174,6 +174,7 @@ subsBtn[0].addEventListener("click", () => {});
 
 ## 피드백
 
+- article 태그보다 section 태그 사용할 것
 - header 태그 내 HODU 로고는 h1 태그 안에 배치할 것
 - header 태그 내 HODU 로고를 anchor 태그 안에 배치할 것
 - navigation 바의 position을 fixed가 아닌 sticky로
