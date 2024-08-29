@@ -171,3 +171,14 @@ subsBtn[0].addEventListener("click", () => {});
 ### position: absolute, relative
 
 - 비록 HTML과 CSS 코드를 작성을 완료하기는 했으나, 여전히 이해가 부족한 부분이라고 생각
+
+## 피드백
+
+- header 태그 내 HODU 로고는 h1 태그 안에 배치할 것
+- navigation 바의 position을 fixed가 아닌 sticky로
+- 뷰포트 단위로 정적이 아닌 동적으로 웹 페이지 구현할 것
+- modal 창 팝업 시 뒷 배경화면은 흐리게
+- modal 창 팝업 시 뒷 배경화면 스크롤 금지
+- 반응형 웹 페이지 구현
+- footer 태그 내 인스타, 페이스북 등의 아이콘은 anchor 태그로
+- 원래 header 안에 있는 contents는 main 안으로 배치해둘 것
