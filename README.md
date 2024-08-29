@@ -15,7 +15,7 @@
 - 스크롤 업 버튼 구현
 - 이메일 주소 유효성 검사 후 modal 팝업 창 구현
 
-[구현된 웹 페이지](https://yoonjong-j.github.io/ESTsoft-FE-Project/)
+[배포된 웹 페이지](https://yoonjong-j.github.io/ESTsoft-FE-Project/)
 
 ## Layout
 
