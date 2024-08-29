@@ -10,6 +10,7 @@
 
 - 피그마 렌딩페이지를 기반으로 웹 페이지 구현
 - HTML / CSS / JavaScript
+- VS Code
 - PC Version
 - 스크롤 업 버튼 구현
 - 이메일 주소 유효성 검사 후 modal 팝업 창 구현
