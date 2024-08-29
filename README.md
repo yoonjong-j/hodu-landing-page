@@ -165,3 +165,9 @@ subsBtn[0].addEventListener("click", () => {});
 - **document.getElementsByClassName**은 동일한 클래스명을 가진 모든 HTML 요소를 배열의 형태로 저장해서 반환
 
 ![해결](./Screenshots/js_2_.png)
+
+## 공부가 필요한 부분
+
+### position: absolute, relative
+
+- 비록 HTML과 CSS 코드를 작성을 완료하기는 했으나, 여전히 이해가 부족한 부분이라고 생각
