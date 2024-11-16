@@ -4,6 +4,24 @@
 
 **장윤종**
 
+## 개발 스택
+
+### Environment
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+### Development
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## 배포 링크
+
+[호두 랜딩 페이지](https://yoonjong-j.github.io/hodu-landing-page/)
+
 ## 구현 기능
 
 [피그마 링크](<https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-%EC%98%A4%EB%A5%B4%EB%AF%B8(BE)_HTML%2FCSS%2FJS?node-id=104924-12&t=DkHqKMa1PBxYw4n3-0>)
@@ -14,8 +32,6 @@
 - PC Version
 - 스크롤 업 버튼 구현
 - 이메일 주소 유효성 검사 후 modal 팝업 창 구현
-
-[배포된 웹 페이지](https://yoonjong-j.github.io/ESTsoft-FE-Project/)
 
 ## Layout
 
